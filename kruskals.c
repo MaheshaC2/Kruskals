@@ -7,11 +7,9 @@ int find(int x) {
         x = parent[x];
     return x;
 }
-
 void unite(int a, int b) {
     parent[a] = b;
 }
-
 int main() {
     int n, e;
     printf("Enter vertices and edges: ");
